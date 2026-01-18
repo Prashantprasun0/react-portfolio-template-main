@@ -1,0 +1,44 @@
+{
+    "name": "Prashant Prasun",
+
+    "profilePictureUrl": "images/pictures/profile-pic.webp",
+    "resumePdfUrl": "",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Prashant Prasun",
+            "localized_name_stylized": " [[Prashant {{Prasun}}]]",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Web Developer",
+                "Frontend Developer",
+                "Wordpress Developer",
+                "UX Designer"
+            ],
+            "name_pronunciation_ipa": "/Prashant Prasun/",
+            "name_pronunciation_audio_url": "audio/Prashant-prasun.mp3"
+        },
+        "es": {
+            "status_message_available_for_freelance": "¡Disponible para freelance!",
+            "roles": [
+                "Desarrollador Backend",
+                "Desarrollador Frontend",
+                "Ingeniero DevOps",
+                "Diseñador UX"
+            ]
+        },
+        "fr": {
+            "status_message_available_for_freelance": "Disponible pour freelance !",
+            "roles": [
+                "Développeur Backend",
+                "Développeur Frontend",
+                "Ingénieur DevOps",
+                "Designer UX"
+            ]
+        }
+    }
+}

@@ -1,0 +1,252 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "es": {
+                "title_short": "Vida Reciente",
+                "title_short_nav": "Actualizaciones",
+                "title_long_prefix": "Consulta mis",
+                "title_long": "Actualizaciones {{Recientes}}"
+            },
+            "fr": {
+                "title_short": "Vie Récente",
+                "title_short_nav": "Mises à Jour",
+                "title_long_prefix": "Découvrez mes",
+                "title_long": "Dernières {{Mises à Jour}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-tablet-screen-button",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "25+",
+                            "text": "website Developed"
+                        },
+                        "es": {
+                            "text": "Aplicaciones Publicadas"
+                        },
+                        "fr": {
+                            "text": "Applications Publiées"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-location-crosshairs",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "12",
+                            "text": "States visited"
+                        },
+                        "es": {
+                            "text": "Países Visitados"
+                        },
+                        "fr": {
+                            "text": "Pays Visités"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "30+",
+                            "text": "Open-source projects"
+                        },
+                        "es": {
+                            "text": "Proyectos de Código Abierto"
+                        },
+                        "fr": {
+                            "text": "Projets Open-source"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-coffee",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "20,000",
+                            "text": "Coffees consumed"
+                        },
+                        "es": {
+                            "text": "Cafés Consumidos"
+                        },
+                        "fr": {
+                            "text": "Cafés Consommés"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "1,000,000+",
+                            "text": "Lines of code"
+                        },
+                        "es": {
+                            "text": "Líneas de código"
+                        },
+                        "fr": {
+                            "text": "Lignes de code"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Infinite",
+                            "text": "Passion for learning"
+                        },
+                        "es": {
+                            "title": "Infinita",
+                            "text": "Pasión por Aprender"
+                        },
+                        "fr": {
+                            "title": "Infinie",
+                            "text": "Passion d'apprendre"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Quick {{Facts}}" },
+                "es": { "title": "Feed de {{Noticias}}" },
+                "fr": { "title": "Fil d'{{Actualités}}" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2022, "month": 9},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Relocating to {{Gujarat!}}",
+                            "province": "Ahmedabad",
+                            "country": "India",
+                            "institution": "",
+                            "text": "I’ve recently made the move to California, USA, to explore new opportunities, both professionally and personally. I’m looking forward to discovering what this vibrant state has to offer and embracing all the challenges and experiences that come with this new chapter in my life. Excited for what’s ahead! Stay tuned for updates on my journey and the adventures that await in the Golden State!"
+                        },
+                        "es": {
+                            "title": "Mudándome a {{California!}}",
+                            "province": "Ontario",
+                            "country": "Canadá",
+                            "institution": "",
+                            "text": "Recientemente me he mudado a California, EE.UU., para explorar nuevas oportunidades, tanto profesionales como personales. Estoy deseando descubrir lo que este vibrante estado tiene para ofrecer y abrazar todos los desafíos y experiencias que vienen con este nuevo capítulo de mi vida. ¡Emocionado por lo que está por venir! Mantente atento a las actualizaciones sobre mi viaje y las aventuras que me esperan en el Estado Dorado."
+                        },
+                        "fr": {
+                            "title": "Déménagement en {{Californie!}}",
+                            "province": "Ontario",
+                            "country": "Canada",
+                            "institution": "",
+                            "text": "Je viens de déménager en Californie, aux États-Unis, pour explorer de nouvelles opportunités, tant professionnelles que personnelles. J'ai hâte de découvrir ce que cet État dynamique a à offrir et de relever tous les défis et expériences qui accompagnent ce nouveau chapitre de ma vie. Excité pour ce qui m'attend ! Restez à l'écoute pour des mises à jour sur mon parcours et les aventures qui m'attendent dans l'État d'Or !"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {"year": 2026, "month": 6},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
+                            {"href": "https://github.com/ryanbalieiro/react-portfolio-template", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Launched my {{personal website!}}",
+                            "province": "Ahmedabad",
+                            "country": "IN",
+                            "institution": "",
+                            "text": "I’m excited to announce the launch of my [[personal website]]! 🎉 This platform is a space where I can share my projects, blog posts, and insights into the world of technology and development. It’s been a labor of love, and I can’t wait for you all to explore it. Here are some highlights of what you can find on the site:",
+                            "list": [
+                                "Portfolio showcasing my projects and contributions",
+                                "Blog with articles on technology, coding, and personal experiences",
+                                "Contact form for inquiries and collaborations",
+                                "Links to my social media profiles and GitHub"
+                            ]
+                        },
+                        "es": {
+                            "title": "¡Lanzamiento de mi {{sitio web personal!}}",
+                            "province": "California",
+                            "country": "EE.UU.",
+                            "institution": "",
+                            "text": "Estoy emocionado de anunciar el lanzamiento de mi [[sitio web personal]]! 🎉 Esta plataforma es un espacio donde puedo compartir mis proyectos, publicaciones de blog y reflexiones sobre el mundo de la tecnología y el desarrollo. Ha sido un trabajo de amor, y no puedo esperar a que todos lo exploren. Aquí hay algunos aspectos destacados de lo que puedes encontrar en el sitio:",
+                            "list": [
+                                "Portafolio que muestra mis proyectos y contribuciones",
+                                "Blog con artículos sobre tecnología, codificación y experiencias personales",
+                                "Formulario de contacto para consultas y colaboraciones",
+                                "Enlaces a mis perfiles en redes sociales y GitHub"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Lancement de mon {{site web personnel!}}",
+                            "province": "Californie",
+                            "country": "États-Unis",
+                            "institution": "",
+                            "text": "Je suis ravi d'annoncer le lancement de mon [[site web personnel]] ! 🎉 Cette plateforme est un espace où je peux partager mes projets, articles de blog et réflexions sur le monde de la technologie et du développement. C'est un travail de passion, et j'ai hâte que vous l'exploriez tous. Voici quelques points forts de ce que vous pouvez trouver sur le site :",
+                            "list": [
+                                "Portfolio présentant mes projets et contributions",
+                                "Blog avec des articles sur la technologie, la programmation et mes expériences personnelles",
+                                "Formulaire de contact pour les demandes et collaborations",
+                                "Liens vers mes profils sur les réseaux sociaux et GitHub"
+                            ]
+                        } 
+                    }
+                }
+            ]
+        }
+    ]
+}

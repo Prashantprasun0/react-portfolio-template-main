@@ -1,0 +1,204 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            },
+            "es": {
+                "title_short": "Experiencia",
+                "title_short_nav": "Experiencia",
+                "title_long_prefix": "Resumen de mi",
+                "title_long": "Experiencia {{Laboral}}"
+            },
+            "fr": {
+                "title_short": "Expérience",
+                "title_short_nav": "Expérience",
+                "title_long_prefix": "Résumé de mon",
+                "title_long": "Parcours {{Professionel}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/brainwaves.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2022, "month": 7},
+                    "dateEnd": {"year": 2022, "month": 12},
+                    "locales": {
+                        "en": {
+                            "title": "{{Web}} Developer",
+                            "province": "Ahmedabad",
+                            "country": "IN",
+                            "institution": "Brainwaves",
+                            "text": "Developed and maintained [[scalable backend systems]] for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
+                            "list": [],
+                            "tags": ["PHP8.0", "MySQL", "Laravel"]
+                        },
+                        "es": {
+                            "title": "Desarrollador {{Backend}}",
+                            "province": "Toronto",
+                            "country": "Canadá",
+                            "institution": "Sapphire Studio",
+                            "text": "Desarrollé y mantuve [[sistemas backend escalables]] para varios clientes, optimizando el rendimiento de bases de datos e implementando APIs RESTful para mejorar la funcionalidad de las aplicaciones.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "fr": {
+                            "title": "Développeur {{Backend}}",
+                            "province": "Toronto",
+                            "country": "Canada",
+                            "institution": "Sapphire Studio",
+                            "text": "Développement et maintenance de [[systèmes backend évolutifs]] pour divers clients, optimisation des performances des bases de données et mise en place d’API RESTful pour améliorer les fonctionnalités des applications.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/TCO.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2023, "month": 1},
+                    "dateEnd": {"year": 2023, "month": 1},
+                    "locales": {
+                        "en": {
+                            "title": "{{Backend}} Developer",
+                            "province": "Contract",
+                            "country": "IN",
+                            "institution": "Trusted Communities Org",
+                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
+                            "list": [],
+                            "tags": ["Svelte", "NodeJS", "Laravel", "REST APIs", "Docker"]
+                        },
+                        "es": {
+                            "title": "Ingeniero {{Full-Stack}}",
+                            "province": "",
+                            "country": "Remoto",
+                            "institution": "Coursera",
+                            "text": "Trabajé en la mejora del sitio web de Coursera implementando nuevas funciones y optimizando la experiencia del usuario, utilizando tecnologías tanto de frontend como de backend para garantizar una funcionalidad fluida.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "fr": {
+                            "title": "Ingénieur {{Full-Stack}}",
+                            "province": "",
+                            "country": "Télétravail",
+                            "institution": "Coursera",
+                            "text": "Participation à l'amélioration du site web de Coursera en développant de nouvelles fonctionnalités et en optimisant l’expérience utilisateur, en utilisant des technologies frontend et backend pour assurer un fonctionnement fluide.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/ge.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2023, "month": 2},
+                    "dateEnd": {"year": 2024, "month": 7},
+                    "locales": {
+                        "en": {
+                            "title": "{{Web}} Developer",
+                            "province": "Ahmedabad",
+                            "country": "IN",
+                            "institution": "Goldeneffects",
+                            "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
+                            "list": [],
+                            "tags": ["Wordpress", "HTML", "PHP", "JavaScript", "SEO", "woocommerce"]
+                        },
+                        "es": {
+                            "title": "Ingeniero {{Backend}}",
+                            "province": "Nueva York",
+                            "country": "EE. UU.",
+                            "institution": "Adobe Inc",
+                            "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia del procesamiento de datos mediante funciones en la nube.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "fr": {
+                            "title": "Ingénieur {{Backend}}",
+                            "province": "New York",
+                            "country": "États-Unis",
+                            "institution": "Adobe Inc",
+                            "text": "Participation au développement de systèmes backend robustes pour Adobe Creative Cloud, intégration de services tiers et amélioration de l’efficacité du traitement des données via des fonctions cloud.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/pictures/ibt.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "#111", "fill": "#EEE"},
+                    "dateStart": {"year": 2024, "month": 8},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{Web}} Developer",
+                            "province": "Dubai",
+                            "country": "UAE",
+                            "institution": "IBT Global Services",
+                            "text": "Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:",
+                            "list": [
+                                "Security",
+                                "Scalability to handle millions of users globally",
+                                "Developing RESTful APIs",
+                                "Optimizing database performance with PostgreSQL",
+                                "Building services with Swift, PHP, and GraphQL"
+                            ],
+                            "tags": ["Wordpress", "HTML", "PHP", "JavaScript", "SEO", "ASP.NET"]
+                        },
+                        "es": {
+                            "title": "Desarrollador {{Senior Backend}}",
+                            "province": "California",
+                            "country": "EE. UU.",
+                            "institution": "Apple Inc",
+                            "text": "Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:",
+                            "list": [
+                                "Seguridad",
+                                "Escalabilidad para manejar millones de usuarios a nivel global",
+                                "Desarrollo de APIs RESTful",
+                                "Optimización del rendimiento de bases de datos con PostgreSQL",
+                                "Creación de servicios con Swift, PHP y GraphQL"
+                            ],
+                            "tags": []
+                        },
+                        "fr": {
+                            "title": "Développeur {{Senior Backend}}",
+                            "province": "Californie",
+                            "country": "États-Unis",
+                            "institution": "Apple Inc",
+                            "text": "Responsable d'une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services Apple, en se concentrant sur :",
+                            "list": [
+                                "La sécurité",
+                                "L’évolutivité pour gérer des millions d’utilisateurs dans le monde",
+                                "Le développement d’API RESTful",
+                                "L’optimisation des performances des bases de données avec PostgreSQL",
+                                "La création de services avec Swift, PHP et GraphQL"
+                            ],
+                            "tags": []
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
