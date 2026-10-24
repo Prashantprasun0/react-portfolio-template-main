@@ -1,25 +1,16 @@
+
 /**
  * @author Ryan Balieiro
  * @date 2025-05-10
  */
 
 export const _fileUtils = {
-    /**
-     * @string
-     */
     BASE_URL: import.meta.env.BASE_URL,
 
-    /**
-     * @param {String} url
-     */
     download: (url) => {
         window.open(_fileUtils.resolvePath(url), "_blank")
     },
 
-    /**
-     * @param {String} path
-     * @return {Promise<any>}
-     */
     loadJSON: async (path) => {
         try {
             const resolvedPath = _fileUtils.resolvePath(path)
@@ -27,25 +18,29 @@ export const _fileUtils = {
             const contentType = response.headers.get("content-type") || ""
 
             if (!response.ok || !contentType.includes("application/json")) {
-                return null
+                throw new Error(
+                    `Request failed: ${response.status} ${response.statusText} — ${resolvedPath}`
+                )
             }
 
             return await response.json()
-        }
-        catch (error) {
+        } catch (error) {
             console.error(`Failed to load JSON from ${path}:`, error)
-            return null
+            throw error
         }
     },
 
-    /**
-     * @param {String} path
-     * @return {String}
-     */
     resolvePath: (path) => {
-        if(path.startsWith("http"))
+        if (/^https?:\/\//i.test(path)) {
             return path
-        const baseUrl = _fileUtils.BASE_URL || ""
-        return baseUrl + path
+        }
+
+        const baseUrl = _fileUtils.BASE_URL || "/"
+        const cleanBase = baseUrl.endsWith("/")
+            ? baseUrl
+            : `${baseUrl}/`
+        const cleanPath = path.replace(/^\/+/, "")
+
+        return `${cleanBase}${cleanPath}`
     },
 }
