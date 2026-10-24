@@ -98,12 +98,24 @@ function LocationProvider({ children, sections, categories }) {
         }
     }
 
-    const _onInvalidSection = () => {
+const _onInvalidSection = () => {
+    const hash = window.location.hash
+
+    // Keep the homepage URL clean when there is no hash.
+    if (!hash) {
         const fallbackSection = sections[0]
-        if(fallbackSection) {
-            goToSection(fallbackSection)
+        if (fallbackSection) {
+            setNextSectionId(fallbackSection.id)
         }
+        return
     }
+
+    // Preserve the existing fallback for invalid hashes.
+    const fallbackSection = sections[0]
+    if (fallbackSection) {
+        goToSection(fallbackSection)
+    }
+}
 
     const _toNextSection = () => {
         setActiveSectionId(nextSectionId)
